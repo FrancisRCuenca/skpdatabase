@@ -8,4 +8,4 @@ class Beneficiary(models.Model):
     barangay = models.CharField(max_length = 30)
     city = models.CharField(max_length = 30)
     assistance = models.CharField(max_length = 30)
-    amount = models.IntegerField
+    amount = models.IntegerField()
