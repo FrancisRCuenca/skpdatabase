@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+import SKPTable from './components/SKPTable'
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">Hello world!</h1>
-  );
+    <div>
+      <h1>Header placeholder</h1>
+      <SKPTable/>
+    </div>
+  )
 }
 
 export default App;
